@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using TechJobs.Models;
 
 namespace TechJobs.Controllers
-{
-    public class ListController : Controller
+{   //provides functionality for users to see lists of all values of a given data column
+    public class ListController : Controller 
     {
         internal static Dictionary<string, string> columnChoices = new Dictionary<string, string>();
 
